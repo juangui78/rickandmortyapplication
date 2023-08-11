@@ -1,0 +1,39 @@
+.divContainer {
+    position: relative;
+    width: 250px;
+    height: 250px;
+}
+
+.divFather {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    color: #fffac2;
+    font-style: oblique;
+
+}
+
+.title:hover {
+    color:#c4bf8e;
+}
+
+.subt {
+    color: #fffac2;
+    font-style:normal;
+    box-sizing: border-box;
+}
+
+.rotateImage {
+    animation: rotation 6s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}

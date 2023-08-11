@@ -1,0 +1,79 @@
+.divData {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 400px;
+    /* background-color: rgb(165, 190, 182); */
+    background-image: url(../components/assets/blurnav.png);
+    background-position: center;
+    margin-top: 3.5%;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    box-shadow: 1px 10px 52px -12px rgba(0,0,0,0.75);
+}
+
+.divImg {
+    border-radius: 20px;
+    box-shadow: 1px 10px 52px -12px rgba(0,0,0,0.75);
+}
+
+.generalDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.nameCharacter {
+    font-style: italic;
+    color: #1b9451
+    
+}
+
+.dataCharacter {
+    font-style: italic;
+    color:#16462c
+}
+
+.textSpace {
+    display: flex;
+    /* background-color: #8fc748; */
+    background-image: url(../components/assets/blurnav.png);
+    background-position: bottom center;
+    border-radius: 15px;
+    justify-content: space-evenly;
+    margin: 6px 0 0 0;
+    border: 1px black solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* box-shadow: 1px 10px 52px -12px rgba(0,0,0,0.75); */
+}
+.textSpace:hover {
+    background-position: bottom center;
+}
+.textSpace:hover .nameCharacter{
+    background-position: bottom center;
+    color: #197944;
+}
+
+/* .nameCharacter:hover {
+    color: #126b3a
+} */
+
+
+@media (max-width: 992px) {
+    .generalDiv {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 60px;
+    }
+    
+    .divData {
+        width: 400px;
+    }
+
+    
+}
