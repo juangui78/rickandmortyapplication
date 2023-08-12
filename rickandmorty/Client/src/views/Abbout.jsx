@@ -18,7 +18,7 @@ export default function About () {
                 <br/>
                 <br/>
                 <br/>
-                <h3 className={style.title}>This is my first project in REACT and REDUX</h3>
+                <h3 className={style.title}>This is my first project using REACT, REDUX, EXPRESS and POSTGRES</h3>
                 <p className={style.subt}>You are able to search cards from Rick and Morty characters!
                 <br></br>
                 And add it to your favs!</p>

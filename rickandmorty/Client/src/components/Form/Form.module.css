@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;300&display=swap');
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
 .form {
     display: flex;
     flex-direction: column;
@@ -5,10 +11,11 @@
     justify-content: center;
     height: 100vh;
     gap: 10px;
+    
 }
 
 .warning {
-    color: red;
+    color: rgb(255, 67, 67);
     font-size: 12px;
 }
 
